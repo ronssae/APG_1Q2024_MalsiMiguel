@@ -7,9 +7,14 @@ public class StarWars : MonoBehaviour
     [SerializeField] private List<Rigidbody> autoRb;
     [SerializeField] private List<Rigidbody> manualRb;
     [SerializeField] private float force;
-    [SerializeField] private ForceMode forceMode;
     // Start is called before the first frame update
     void Start()
+    {
+
+    }
+
+    // Update is called once per frame
+    void FixedUpdate()
     {
         for (int i = 0; i < autoRb.Count; i++)
         {
@@ -34,11 +39,5 @@ public class StarWars : MonoBehaviour
                 _ => Vector3.zero
             };
         }
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-
     }
 }

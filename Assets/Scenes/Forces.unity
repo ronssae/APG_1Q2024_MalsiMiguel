@@ -1481,8 +1481,7 @@ MonoBehaviour:
   - {fileID: 625839518}
   - {fileID: 835506995}
   - {fileID: 1340671661}
-  force: 50
-  forceMode: 0
+  force: 1000
 --- !u!4 &1890372787
 Transform:
   m_ObjectHideFlags: 0
